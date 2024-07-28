@@ -4,7 +4,7 @@
 
 Design and implement a backend for a daily-expenses sharing application. This application allows users to add expenses and split them based on three methods: exact amounts, percentages, and equal splits. It manages user details, validates inputs, and generates downloadable balance sheets.
 
-#**Features**
+**Features**
 
 ###1.User Management
 Each user has an email, name, and mobile numb
