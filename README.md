@@ -38,6 +38,24 @@ Provide a feature to download the balance sheet.
 
 * Add Percent Expense to User Account:
 ***(Input Format)*** : Add_Expense [ExpenseName] [totalAmount] [paidBy UserId] [createdBy UserId] [totalUsers] Percent [User 1 Id] [User 2 Id] ......[User totalUsers Id] [Percent Share by User 1] [Percent Share by User 2] .....
+  
+## Project Setup
+
+### Prerequisites
+
+- **Java Development Kit (JDK):** Ensure JDK 8 or higher is installed on your system.
+### Compilation
+
+1. **Navigate to the `src` Directory:**
+
+   Open a terminal and change to the `src` directory where your Java source files are located:
+
+   ```bash
+   cd path/to/your/project/src
+2. **Running the Application**
+   Execute the Main class using the java command:
+   
+   java com.splitwise.Main
 
 #### Sample Test Case
 
@@ -48,3 +66,21 @@ Provide a feature to download the balance sheet.
 * Show_All_User_Balance
 * Show_User_Data 2
 * Show_User_Expense 1
+   
+**Missing Packages and Symbols**
+Issue: Errors such as cannot find symbol or package does not exist.
+
+Solution:
+
+Compile with Correct Classpath:
+Navigate to the src directory and compile your Java files with the classpath included. For example:
+
+cd C:\Users\bhush\eclipse-workspace\ExpensesSharingApp\src
+javac -d .. com/splitwise/*.java
+
+Run the Main Class Correctly:
+
+Navigate to the directory containing the compiled classes and run the Main class with the appropriate classpath. For example:
+
+cd C:\Users\bhush\eclipse-workspace\ExpensesSharingApp
+java com.splitwise.Main
