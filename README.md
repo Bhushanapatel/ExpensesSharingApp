@@ -1,4 +1,4 @@
-### Expenses Sharing Application*
+### Expenses Sharing Application
 
 #Objective
 
@@ -39,7 +39,7 @@ Provide a feature to download the balance sheet.
 * Add Percent Expense to User Account:
 ***(Input Format)*** : Add_Expense [ExpenseName] [totalAmount] [paidBy UserId] [createdBy UserId] [totalUsers] Percent [User 1 Id] [User 2 Id] ......[User totalUsers Id] [Percent Share by User 1] [Percent Share by User 2] .....
 
-## Sample Test Case
+### Sample Test Case
 
 * Add_User jasmin jasmin@j.com 9876543876
 * Add_Expense Food 200 1 1 3 Equal 1 2 3
