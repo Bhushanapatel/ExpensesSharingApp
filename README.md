@@ -75,11 +75,19 @@ Issue: Errors such as cannot find symbol or package does not exist.
 
 Solution:
 
-### 1. Compile with Correct Classpath
+#### 1. Compile with Correct Classpath
 
 Navigate to the `src` directory and compile your Java files with the classpath included. For example:
 
 ```bash
 cd C:\Users\bhush\eclipse-workspace\ExpensesSharingApp\src
 javac -d .. com/splitwise/*.java
+
+#### 2. Run the Main Class Correctly
+
+Navigate to the directory containing the compiled classes and run the Main class with the appropriate classpath. For example:
+
+```bash
+cd C:\Users\bhush\eclipse-workspace\ExpensesSharingApp
+java com.splitwise.Main
 
