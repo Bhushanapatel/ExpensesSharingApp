@@ -78,10 +78,11 @@ Solution:
 Compile with Correct Classpath:
 Navigate to the src directory and compile your Java files with the classpath included. For example:
 
-```bash
-cd C:\Users\bhush\eclipse-workspace\ExpensesSharingApp\src
+  ```bash
+  cd C:\Users\bhush\eclipse-workspace\ExpensesSharingApp\src
 
-javac -d .. com/splitwise/*.java
+  ```bash
+  javac -d .. com/splitwise/*.java
 
 
 Run the Main Class Correctly:
@@ -89,7 +90,7 @@ Run the Main Class Correctly:
 Navigate to the directory containing the compiled classes and run the Main class with the appropriate classpath. For example:
 
 
-```bash
-cd C:\Users\bhush\eclipse-workspace\ExpensesSharingApp
+  ```bash
+  cd C:\Users\bhush\eclipse-workspace\ExpensesSharingApp
 
 java com.splitwise.Main
