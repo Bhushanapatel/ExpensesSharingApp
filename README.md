@@ -52,9 +52,11 @@ Provide a feature to download the balance sheet.
 
    ```bash
    cd path/to/your/project/src
+   
 2. **Running the Application**
    Execute the Main class using the java command:
    
+   ```bash
    java com.splitwise.Main
 
 #### Sample Test Case
@@ -68,6 +70,7 @@ Provide a feature to download the balance sheet.
 * Show_User_Expense 1
    
 **Missing Packages and Symbols**
+
 Issue: Errors such as cannot find symbol or package does not exist.
 
 Solution:
@@ -75,12 +78,18 @@ Solution:
 Compile with Correct Classpath:
 Navigate to the src directory and compile your Java files with the classpath included. For example:
 
+```bash
 cd C:\Users\bhush\eclipse-workspace\ExpensesSharingApp\src
+
+```bash
 javac -d .. com/splitwise/*.java
 
 Run the Main Class Correctly:
 
 Navigate to the directory containing the compiled classes and run the Main class with the appropriate classpath. For example:
 
+```bash
 cd C:\Users\bhush\eclipse-workspace\ExpensesSharingApp
+
+```bash
 java com.splitwise.Main
