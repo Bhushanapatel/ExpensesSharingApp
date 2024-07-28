@@ -1,4 +1,4 @@
-#**Expenses Sharing Application**
+### Expenses Sharing Application*
 
 #Objective
 
