@@ -1,6 +1,6 @@
 ## Expenses Sharing Application
 
-#Objective
+#### Objective
 
 Design and implement a backend for a daily-expenses sharing application. This application allows users to add expenses and split them based on three methods: exact amounts, percentages, and equal splits. It manages user details, validates inputs, and generates downloadable balance sheets.
 
@@ -23,7 +23,7 @@ Show individual expenses.
 Show overall expenses for all users.
 Provide a feature to download the balance sheet.
 
-### Queries
+#### Queries
 * Add User: 
 **(Input Format)**: Add_User [name] [Email] [PhoneNumber]
 
@@ -39,7 +39,7 @@ Provide a feature to download the balance sheet.
 * Add Percent Expense to User Account:
 ***(Input Format)*** : Add_Expense [ExpenseName] [totalAmount] [paidBy UserId] [createdBy UserId] [totalUsers] Percent [User 1 Id] [User 2 Id] ......[User totalUsers Id] [Percent Share by User 1] [Percent Share by User 2] .....
 
-### Sample Test Case
+#### Sample Test Case
 
 * Add_User jasmin jasmin@j.com 9876543876
 * Add_Expense Food 200 1 1 3 Equal 1 2 3
